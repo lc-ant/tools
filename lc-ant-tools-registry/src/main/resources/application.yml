@@ -1,0 +1,11 @@
+spring:
+  main:
+    web-application-type: NONE
+  cloud:
+    config:
+      enabled: false
+      
+logging:
+  level:
+    net.lecousin.ant: DEBUG
+    org.springframework.web: TRACE
